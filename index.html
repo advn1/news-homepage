@@ -5,8 +5,96 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
+    <script src="./main.js"></script>
 </head>
 <body>
-    
+    <div class="app-container">
+        <header>
+            <nav>
+                <ul class="nav sidebar">
+                    <img class="close" src="./news-guide/assets/images/icon-menu-close.svg" alt="">
+                    <li>Home</li>
+                    <li>New</li>
+                    <li>Popular</li>
+                    <li>Trending</li>
+                    <li>Categories</li>
+                </ul>
+                <ul class="nav nav-mobile">
+                    <img src="./news-guide/assets/images/logo.svg" alt="">
+                    <img class="hamburger" src="./news-guide/assets/images/icon-menu.svg" alt="">
+                </ul>
+                <ul class="nav nav-desktop">
+                    <img src="./news-guide/assets/images/logo.svg" alt="">
+                    <li>Home</li>
+                    <li>New</li>
+                    <li>Popular</li>
+                    <li>Trending</li>
+                    <li>Categories</li>
+                </ul>
+            </nav>
+        </header>
+        <main class="grid-container">
+            <section class="hero">
+                <img src="./news-guide/assets/images/image-web-3-desktop.jpg" alt="">
+            </section>
+            <article class="main-text">
+                <div>
+                    <h1>The Bright Future of Web 3.0?</h1>
+                </div>
+                <div>
+                    <h3>We dive into the next evolution of the web that claims to put the power of the platforms back into the hands of the people. But is it really fulfilling its promise?</h3>
+                    <button>READ MORE</button>
+                </div>
+            </article>
+            <aside class="aside">
+                <h2>New</h2>
+                <div class="news">
+                    <h1>Hydrogen VS Electric Cars</h1>
+                    <h3>Will hydrogen-fueled cars ever catch up to EVs?</h3>
+                </div>
+                <hr>
+                <div class="news">
+                    <h1>The Downsides of Al Artistry</h1>
+                    <h3>What are the possible adverse effects of on-demand Al image generation?</h3>
+                </div>
+                <hr>
+                <div class="news">
+                    <h1> VC Funding Drying Up?</h1>
+                    <h3>Private funding by VC firms is down 50% YOY. We take a look at what that means.</h3>
+                </div>
+            </aside>
+            <article class="bottom">
+                <div class="mini-news">
+                    <img src="./news-guide/assets/images/image-retro-pcs.jpg" alt="">
+                    <div class="description">
+                        <h1>01</h1>
+                        <h2>Reviving Retro PCs</h2>
+                        <h3>What happens when old PCs are given modern upgrades?</h3>
+                    </div>
+                </div>
+
+                <div class="mini-news">
+                    <img src="./news-guide/assets/images/image-top-laptops.jpg" alt="">
+                    <div class="description">
+                        <h1>02</h1>
+                        <h2>Top 10 Laptops of 2024</h2>
+                        <h3>Our best picks for various needs and budgets.</h3>
+                    </div>
+                </div>
+
+                <div class="mini-news">
+                    <img src="./news-guide/assets/images/image-gaming-growth.jpg" alt="">
+                    <div class="description">
+                        <h1>03</h1>
+                        <h2>The Growth of Gaming</h2>
+                        <h3>How the pandemic has sparked fresh opportunities.</h3>
+                    </div>
+                </div>
+            </article>
+        </main>
+    </div>
 </body>
 </html>
